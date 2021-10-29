@@ -1,0 +1,75 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	font-family: "Poppins";
+	background: #8A2387;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 100vh;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	overflow: hidden;
+}
+body:hover{
+	background: #FDC830;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container, .container_success{
+	padding: 10px 20px;
+	height: auto;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 3px;
+}
+form{
+	margin-top: 30px;
+}
+form input{
+	margin-bottom: 20px;
+	border: none;
+	width: 100%;
+	padding: 10px 0px;
+	border-bottom: 1px solid black;
+	outline: none;
+	font-size: 16px;
+}
+.container_success form .return{
+	width: 30%;
+	float: right;
+	cursor: pointer;
+	border: 1px solid black;
+	padding: 10px 30px;
+	background-color: #E94057;
+	color: white;
+}
+.container_success form .return:hover{
+	background: #8A2387;
+	background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);
+	background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+	color: black;
+}
+form .submit{
+	margin-top: 30px;
+	width: 30%;
+	float: right;
+	border: 1px solid black;
+	padding: 10px 30px;
+	background-color: #E94057;
+	color: white;
+	cursor: pointer;
+}
+form .submit:hover{
+	background: #8A2387;
+	background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);
+	background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+	color: black;
+}
